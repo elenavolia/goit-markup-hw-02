@@ -1,3 +1,18 @@
+body {
+  background-color: rgba 0.9, 0.9, 0.9, 1;
+}
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: rgba 0.18, 0.19, 0.23, 1;
+}
+
+ul {
+  list-style: none;
+}
+
 #slogan {
   height: 153;
   font-weight: 31;
@@ -8,4 +23,27 @@
   font-weight: 20;
   color: rgba(0.69, 0.69, 0.72, 1);
   text-decoration: none;
+}
+
+.contacts-header {
+  color: rgba(0.46, 0.46, 0.46, 1);
+  font-weight: 122;
+  height: 16;
+}
+.contacts-header:hover,
+.contacts-header:focus {
+  color: rgba(0.13, 0.59, 0.95, 1);
+}
+
+.contacts-header:active {
+  color: turquoise;
+}
+
+.link: hover, 
+.link: :focus {
+  color: orange;
+}
+
+.link: :active {
+  color: blue;
 }
