@@ -1,0 +1,11 @@
+#slogan {
+  height: 153;
+  font-weight: 31;
+  color: orange;
+}
+.social-links {
+  height: 20;
+  font-weight: 20;
+  color: rgba(0.69, 0.69, 0.72, 1);
+  text-decoration: none;
+}
