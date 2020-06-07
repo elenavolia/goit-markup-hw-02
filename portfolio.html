@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalaize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -14,9 +31,15 @@
           <span class="logo-web">Web</span> Studio
         </a>
         <ul class="list site-nav">
-          <li><a href="" lang="ru"> Студия</a></li>
-          <li><a href="./portfolio.html" lang="ru"> Портфолио</a></li>
-          <li><a href="" lang="ru"> Контакты</a></li>
+          <li>
+            <a class="link unactive" href="./index.html" lang="ru"> Студия</a>
+          </li>
+          <li>
+            <a class="link current" href="./portfolio.html" lang="ru">
+              Портфолио</a
+            >
+          </li>
+          <li><a class="link unactive" href="" lang="ru"> Контакты</a></li>
         </ul>
       </nav>
 
@@ -53,109 +76,162 @@
         <h1 class="" lang="ru">Кнопки</h1>
         <ul class="buttons-list">
           <li>
-            <h2 class="button-titel" lang="ru">Все</h2>
+            <a href="" class="button-titel" lang="ru">Все</a>
           </li>
           <li>
-            <h2 class="button-titel" lang="ru">Веб-сайты</h2>
+            <a href="" class="button-titel" lang="ru">Веб-сайты</a>
           </li>
           <li>
-            <h2 class="button-titel" lang="ru">Приложения</h2>
+            <a href="" class="button-titel" lang="ru">Приложения</a>
           </li>
           <li>
-            <h2 class="button-titel" lang="ru">Дизайн</h2>
+            <a href="" class="button-titel" lang="ru">Дизайн</a>
           </li>
           <li>
-            <h2 class="button-titel" lang="ru">Маркетинг</h2>
+            <a href="" class="button-titel" lang="ru">Маркетинг</a>
           </li>
         </ul>
       </section>
 
-    <!--Main section-->
+      <!--Main section-->
       <section>
-          <h3>Проэкты</h3>
+        <h3>Проекты</h3>
         <ul class="progets-list">
-            <li>
-        <img src="./images/technokrack-logo.png" alt="technokrack" width="370" />
-        <h3 class="progets-titel" lang="ru">Технокряк</h3>
-        <p class="list-name">Веб-сайт</p>
-        <pclass="description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-            шпионажа и атак на защищённые сервера конкурентов.</p>
-        </li>
+          <li>
+            <img
+              src="./images/technokrack-logo.png"
+              alt="technokrack"
+              width="370"
+            />
+            <h3 class="progets-titel" lang="ru">Технокряк</h3>
+            <p class="list-name">Веб-сайт</p>
+            <p class="description">
+              Технокряк это современная площадка распространения коронавируса.
+              Компании используют эту платформу для цифрового шпионажа и атак на
+              защищённые сервера конкурентов.
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/new-orlean-vs-golden-star.png" alt="new orlean vs goldenstar" width="370" />
-        <h3 class="progets-titel" lang="ru">Постер New Orlean vs Golden Star</h3>
-        <p class="list-name">Дизайн</p>
-        <p class="description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias molestiae esse autem, asperiores molestias ad voluptatibus. Enim deleniti saepe ducimus esse cupiditate, animi, tenetur quis autem fugiat dignissimos aspernatur aut!
-        </p>
-        </li>
+          <li>
+            <img
+              src="./images/new-orlean-vs-golden-star.png"
+              alt="new orlean vs goldenstar"
+              width="370"
+            />
+            <h3 class="progets-titel" lang="ru">
+              Постер New Orlean vs Golden Star
+            </h3>
+            <p class="list-name">Дизайн</p>
+            <p class="description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+              molestiae esse autem, asperiores molestias ad voluptatibus. Enim
+              deleniti saepe ducimus esse cupiditate, animi, tenetur quis autem
+              fugiat dignissimos aspernatur aut!
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/Seafood-logo.png" alt="Seafood-logo" width="370" />
-        <h3 class="progets-titel" lang="ru">Ресторан Seafood</h3>
-        <p class="list-name">Приложение</p>
-        <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolore magni eveniet suscipit placeat laudantium eum modi reprehenderit sapiente dignissimos nihil officiis, eaque illum, impedit id cupiditate! Vel, sequi quae.
-        </p>
-        </li>
+          <li>
+            <img
+              src="./images/Seafood-logo.png"
+              alt="Seafood-logo"
+              width="370"
+            />
+            <h3 class="progets-titel" lang="ru">Ресторан Seafood</h3>
+            <p class="list-name">Приложение</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatem dolore magni eveniet suscipit placeat laudantium eum
+              modi reprehenderit sapiente dignissimos nihil officiis, eaque
+              illum, impedit id cupiditate! Vel, sequi quae.
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/prime-logo.png" alt="prime-logo" width="370" />
-        <h3 class="progets-titel" lang="ru">Проект Prime</h3>
-        <p class="list-name">Маркетинг</p>
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum quos ea reprehenderit saepe provident, consequatur rem neque similique excepturi. Ducimus, fuga praesentium! Doloribus aspernatur dignissimos id earum suscipit porro.
-        </p>
-        </li>
+          <li>
+            <img src="./images/prime-logo.png" alt="prime-logo" width="370" />
+            <h3 class="progets-titel" lang="ru">Проект Prime</h3>
+            <p class="list-name">Маркетинг</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis earum quos ea reprehenderit saepe provident,
+              consequatur rem neque similique excepturi. Ducimus, fuga
+              praesentium! Doloribus aspernatur dignissimos id earum suscipit
+              porro.
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/boxes-logo.png" alt="boxes-logo" width="370" />
-        <h3 class="progets-titel" lang="ru">Проект Boxes</h3>
-        <p class="list-name">Приложение</p>
-        <p class="description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis ducimus minima incidunt commodi iure ex quod unde vel at blanditiis, dignissimos asperiores voluptatem est possimus sit quos deleniti dolorum dolore.
-        </p>
-        </li>
+          <li>
+            <img src="./images/boxes-logo.png" alt="boxes-logo" width="370" />
+            <h3 class="progets-titel" lang="ru">Проект Boxes</h3>
+            <p class="list-name">Приложение</p>
+            <p class="description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+              ducimus minima incidunt commodi iure ex quod unde vel at
+              blanditiis, dignissimos asperiores voluptatem est possimus sit
+              quos deleniti dolorum dolore.
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/inspiration-logo.png" alt="inspiration-logo" width="370" />
-        <h3 class="progets-titel" lang="ru">Inspiration has no Borders</h3>
-        <p class="list-name">Веб-сайт</p>
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in magni vitae? Molestias tempora quidem sint necessitatibus quae libero, amet, neque sequi recusandae laboriosam iusto? Minus numquam vel necessitatibus corporis.
-        </p>
-        </li>
+          <li>
+            <img
+              src="./images/inspiration-logo.png"
+              alt="inspiration-logo"
+              width="370"
+            />
+            <h3 class="progets-titel" lang="ru">Inspiration has no Borders</h3>
+            <p class="list-name">Веб-сайт</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in
+              magni vitae? Molestias tempora quidem sint necessitatibus quae
+              libero, amet, neque sequi recusandae laboriosam iusto? Minus
+              numquam vel necessitatibus corporis.
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/limited-edition-logo.png" alt="limited-edition-logo" width="370" />
-        <h3 class="progets-titel" lang="ru">Издание Limited Edition</h3>
-        <p class="list-name">Дизайн</p>
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa minima saepe quas veniam odio fugiat earum fugit quis eius tempore. Sequi nam earum rerum recusandae quae? Consequatur libero cumque asperiores?
-        </p>
-        </li>
+          <li>
+            <img
+              src="./images/limited-edition-logo.png"
+              alt="limited-edition-logo"
+              width="370"
+            />
+            <h3 class="progets-titel" lang="ru">Издание Limited Edition</h3>
+            <p class="list-name">Дизайн</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+              minima saepe quas veniam odio fugiat earum fugit quis eius
+              tempore. Sequi nam earum rerum recusandae quae? Consequatur libero
+              cumque asperiores?
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/lab-logo.png" alt="lab-logo" width="370" />
-        <h3 class="progets-titel" lang="ru">Проект LAB</h3>
-        <p class="list-name">Маркетинг</p>
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem corrupti, consequuntur, doloribus ducimus similique sapiente ad, provident harum sequi veritatis adipisci? Labore esse est error exercitationem saepe illum veritatis commodi.
-        </p>
-        </li>
+          <li>
+            <img src="./images/lab-logo.png" alt="lab-logo" width="370" />
+            <h3 class="progets-titel" lang="ru">Проект LAB</h3>
+            <p class="list-name">Маркетинг</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              corrupti, consequuntur, doloribus ducimus similique sapiente ad,
+              provident harum sequi veritatis adipisci? Labore esse est error
+              exercitationem saepe illum veritatis commodi.
+            </p>
+          </li>
 
-            <li>
-        <img src="./images/growing-business-logo.png" alt="growing-business-logo" width="370" />
-        <h3 class="progets-titel">Growing Business</h3>
-        <p class="list-name">Приложение</p>
-        <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minus officia debitis porro velit, accusamus nisi iusto dicta provident nemo, eos doloribus, commodi laborum? Tempore reprehenderit quas iure atque tenetur?
-        </p>
-        </li>
+          <li>
+            <img
+              src="./images/growing-business-logo.png"
+              alt="growing-business-logo"
+              width="370"
+            />
+            <h3 class="progets-titel">Growing Business</h3>
+            <p class="list-name">Приложение</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              minus officia debitis porro velit, accusamus nisi iusto dicta
+              provident nemo, eos doloribus, commodi laborum? Tempore
+              reprehenderit quas iure atque tenetur?
+            </p>
+          </li>
+        </ul>
       </section>
-
-
     </main>
     <!--Footer of the pagr-->
     <footer>
@@ -175,7 +251,7 @@
       <section class="section">
         <b lang="ru">присоединяйтесь</b>
 
-        <span>
+        <div>
           <h5 lang="ru">Социальные сети</h5>
           <ul class="list">
             <li>
@@ -199,7 +275,7 @@
               /></a>
             </li>
           </ul>
-        </span>
+        </div>
       </section>
       <b lang="ru">подпишитесь на рассылку</b>
       <form name="email-form" method="post" action="input1.php">

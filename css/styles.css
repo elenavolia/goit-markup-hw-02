@@ -1,73 +1,128 @@
 :root {
-    --primary-text-color: #212121;
-    --marked-text-color: #2196F3;
-    --secondary-text-color: #757575;
-    --contrast-text-color: #FFFFFF;
-    --footer-text-color: #rgba(255, 255, 255, 0.6); 
-    --primary-background-color:   #FFFFFF;
-    --icons-background-color: #F5F4FA;
-    --secondary-background-color: #F5F4FA;
-    --footer-background-color: #2F303A;
+  --primary-text-color: #212121;
+  --marked-text-color: #2196f3;
+  --secondary-text-color: #757575;
+  --contrast-text-color: #ffffff;
+  --footer-text-color: #rgba(255, 255, 255, 0.6);
+  --primary-background-color: #ffffff;
+  --icons-background-color: #f5f4fa;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
 }
+/* Roboto regular
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+Roboto 500
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+Roboto bold
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 
+*/
 
 body {
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
+  font-family: 'Raleway', sans-serif;
+
 }
 header {
-  background-color: var(--primary-background-color) 
+  background-color: var(--primary-background-color);
+  font-family: 'Raleway', sans-serif;
 }
 
 footer {
   background-color: var(--footer-background-color);
   color: var(--footer-text-color);
+  font-family: 'Raleway', sans-serif;
 }
 link {
-    text-decoration: none;
+  text-decoration: none;
+  color: none;
+}
+a {
+  text-decoration: none;
+  color: none;
 }
 
 .logo {
-    color: var(--primary-text-color);
-    width: 153;
-    height: 31;
+  color: var(--primary-text-color);
+  width: 153;
+  height: 31;
+  font-family: 'Raleway', sans-serif;
 }
 .logo :hover {
-    color: var(--marked-text-color:);
+  color: var(--marked-text-color: );
 }
 .logo-web {
-color: var(--marked-text-color);
+  color: var(--marked-text-color);
+  .logo-footer {
+      color: var(--contrast-text-color);
+      width: 153;
+      height: 31;
+      font-family: 'Raleway', sans-serif;
+  }
 }
 ul {
-    list-style: none;
+  list-style: none;
+}
+nav {
+    text-decoration: none;
+    color: none;
+    border-inline-style: none;
+    transform-style: none;
 }
 
 /*site nav*/
 
-.site-nav{
-color: #212121;
-
+.site-nav {
+  color: var(--primary-text-color);
 }
 .site-nav :hover,
-.site-nav :focus{
-    color: #2196F3;
+.site-nav :focus {
+  color: var(--marked-text-color);
 }
 
-.contacts{
-
+.site-nav .link.current {
+    color: var(--marked-text-color);
 }
 
-.section {
+.link.unactive {
+    color: var(--primary-text-color);
+}
 
+.contacts-header {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-weight: 122;
+  height: 16;
+}
+.contacts-header :hover,
+.contacts-header :focus {
+  color: var(--marked-text-color);
+
+  /* main container*/
+
+.contacts {
+}
+
+ .slogan {
+font-family: Roboto;
+font-style: normal;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: rgb(184, 128, 26);} /*var(--contrast-text-color)*/  
+
+.order-service {
+    
 }
 
 .section-titel {
-    color: #212121;;
+  color: #212121;
 }
-.features{
-
+.features {
 }
-
 
 #slogan {
   height: 153;
@@ -79,13 +134,7 @@ color: #212121;
   font-weight: 20;
   color: rgba(0.69, 0.69, 0.72, 1);
   text-decoration: none;
-}
 
-.contacts-header {
-  color: rgba(0.46, 0.46, 0.46, 1);
-  font-weight: 122;
-  height: 16;
-}
 .contacts-header:hover,
 .contacts-header:focus {
   color: rgba(0.13, 0.59, 0.95, 1);
@@ -96,7 +145,7 @@ color: #212121;
 }
 
 .link: hover, 
-.link: :focus {
+.link: focus {
   color: orange;
 }
 
@@ -104,19 +153,32 @@ color: #212121;
   color: blue;
 }
 
+.button {
+  color: var(--contrast-text-color);
+  background-color: var(--marked-text-color);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/*
+.order-service {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+}*/
 
-
-/* colors
-main text color #212121
-hoover text color #2196F3
-p text color #757575
-white text color #FFFFFF
-footer text color / e-mail, phone #99FFFFFF
-
-background: #E5E5E5
-our team background: #F5F4FA
-footer background: #2F303A;
-header background: #FFFFFF;
-what do we do bc #CC2F303A
-buttons background: #2196F3;
-copyright  rgba(255, 255, 255, 0.4)
+.button-titel {
+  color: var(--primary-text-color);
+  background-color: var(--icons-background-color);
+}
+.button-titel:hover, 
+.button-titel:focus {
+  color: var(--contrast-text-color);
+  background-color: var(--marked-text-color);
+}
